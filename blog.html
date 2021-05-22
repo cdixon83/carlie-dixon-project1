@@ -29,5 +29,74 @@
         <div class="flex-cont-head">
             <h1>Blog</h1>
         </div>
+    </header>
+    <main>
+        <section class="info">
+            <div class="flex-cont-info1">
+                <div class="cont-info1">
+                    <div class="img-cont-info1">
+                        <img src="./assets/blog-post-image.jpg" alt="Blue couch with white pillows in a white room.">
+                    </div>
+                    <div class="text-cont-info1">
+                        <h2>Finding the right pieces for new space</h2>
+                        <p>Monday, October 5th, 2019 by <span>Saron</span></p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At libero corrupti, a necessitatibus autem cupiditate excepturi facere modi nostrum, sunt natus consectetur consequuntur eius distinctio quia cumque! Quaerat, sit minus?</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur perspiciatis repellat quam esse eaque sed animi a alias labore voluptas corporis iste iusto, reprehenderit est fuga sit doloribus? Odio, deleniti.</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit rerum eligendi consequatur voluptate. Itaque beatae a nulla nisi labore odio! Hic sapiente tempore reprehenderit praesentium accusamus quia accusantium quasi. Libero!</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia, iure sed? Quo illo cum temporibus deserunt excepturi veritatis, adipisci, quis numquam neque eligendi ex enim beatae minima laboriosam placeat laudantium.</p>
+
+                    </div>
+                </div>
+                <div class="cont-info2">
+                    <div class="img-cont-info2">
+                        <img src="./assets/sidebar-image.jpg" alt="A bronze geometric ceiling light fixture.">
+                    </div>
+                    <div class="text-cont-info2">
+                        <h2>Out Mission</h2>
+                        <p>Nam dapibus nisl vitae elit fringilla rutrum. Aenean sollicitudin, erat a elementum. Find out more.</p>
+                        <h2>Recent Posts</h2>
+                        <ul>
+                            <li>Lorem ipsum dolor sit.</li>
+                            <li>Sint est ad eius.</li>
+                            <li>Optio fugiat expedita maxime.</li>
+                            <li>Totam, sequi. Distinctio, qui.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="blog-posts">
+            <div class="blog-wrapper">
+                <h2>Comments:</h2>
+                <div class="blogs">
+                    <img src="./assets/comment-image.jpg" alt="Man in black shirt shown from the shoulders up.">
+                    <div class="blog-text">
+                        <h3>Tuesday October 9th, 2019 by Davin</h3>
+                        <p>Fusce vehicula dolor arcu, sit amet blandit dolor mollis nex. Donec viverra eleifend lacus, vitae ullamcorper metus. Sed sollicitudin ipsum  uis nunc sollicitudin ultrices. Donex euismod scelerisque ligula. Maecenas eu varius risus.</p>
+                    </div>
+                    <img src="./assets/comment-image2.jpg" alt="Two zibras facing eachother.">
+                    <div class="blog-text">
+                        <h3>Wednesday October 10th, 2019 by Lisa</h3>
+                        <p>Donec viverra eleifend lacus, vitae ullamcorper metus. Sed sollicitudin ipsum quis nunc sollicitudin uslrices. Donec euismod scelerisque ligula.</p>
+                    </div>
+                </div>
+            </div>
+            <form action="#" method="POST" class="post-comment" name="post-comment">
+                <label for="name">Name</label>
+                <input type="text" name="name" required="true" placeholder="Name">
+
+                <label for="email">Email Address</label>
+                <input type="email" name="email" required="true" placeholder="Email Address">
+
+                <label for="comment"></label>
+                <textarea name="comment" cols="30" rows="10" minlength="5" maxlength="200">Comment</textarea>
+
+                <button type="submit">Post Comment</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright <i class="far fa-copyright"></i> 2021 Juno College</p>
+    </footer>
 </body>
 </html>

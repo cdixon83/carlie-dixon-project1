@@ -32,7 +32,7 @@
     </header>
     <main>
         <div class="flex-cont-main">
-            <form action="">
+            <form action="#" method="POST" class="send-message" name="send-message">
                 <label for="name">Name</label>
                 <input type="text" name="name" required="true" placeholder="Name">
 
@@ -42,6 +42,7 @@
                 <label for="message"></label>
                 <textarea name="message" cols="30" rows="10" minlength="5" maxlength="200">Message</textarea>
 
+                <button type="submit">Post Comment</button>
             </form>
             <div class="contact">
                 <ul class="flex-cont-socials">
