@@ -1,0 +1,30 @@
+.flex-cont-nav1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-cont-nav {
+    display: flex;
+    align-items: center;
+}
+
+.ham-nav {
+    display: none;
+    position: absolute;
+}
+
+header ul {
+    list-style: none;
+    li {
+        padding: 10px 25px;
+        a {
+            @include font-styles (1rem, $main-font, 29px, 1.4px);
+            text-decoration: none;
+            font-weight: 700;
+        }
+        a:hover {
+            border-bottom: solid $accent 2px;
+        }
+    }
+}
+

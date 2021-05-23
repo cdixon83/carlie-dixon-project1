@@ -258,3 +258,109 @@ img {
   max-width: 100%;
   display: block;
 }
+
+h1 {
+  font-size: 3.4rem;
+  font-family: "Kumar One Outline", "cursive";
+  line-height: 64px;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  color: #151514;
+}
+
+h2 {
+  font-size: 1.65rem;
+  font-family: "Kumar One", "cursive";
+  line-height: 58px;
+  letter-spacing: 2.1px;
+  text-transform: uppercase;
+  color: #151514;
+}
+
+h3 {
+  font-size: 1rem;
+  font-family: "Kumar One", "cursive";
+  line-height: 58px;
+  letter-spacing: 2.1px;
+  text-transform: uppercase;
+  color: #151514;
+}
+
+p {
+  font-size: 1rem;
+  font-family: "Lato", sans-serif;
+  line-height: 32px;
+  letter-spacing: 2px;
+  text-transform: none;
+  color: #151514;
+}
+
+p.logo {
+  font-size: 1.1rem;
+  font-family: "Kumar One", "cursive";
+  line-height: 24px;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  color: #151514;
+}
+
+.button {
+  font-size: 1rem;
+  font-family: "Kumar One", "cursive";
+  line-height: 32px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #F5F5F5;
+  text-align: center;
+  background-color: #065635;
+  text-decoration: none;
+  padding: 15px;
+  margin: 10px;
+}
+
+footer p {
+  color: #F5F5F5;
+}
+
+.flex-cont-nav1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.flex-cont-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ham-nav {
+  display: none;
+  position: absolute;
+}
+
+header ul {
+  list-style: none;
+}
+header ul li {
+  padding: 10px 25px;
+}
+header ul li a {
+  font-size: 1rem;
+  font-family: "Lato", sans-serif;
+  line-height: 29px;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  color: #151514;
+  text-decoration: none;
+  font-weight: 700;
+}
+header ul li a:hover {
+  border-bottom: solid #F8FB05 2px;
+}

@@ -1,0 +1,32 @@
+h1 {
+    @include font-styles(3.4rem, $header-font, 64px, 0.8px);
+}
+
+h2 {
+    @include font-styles(1.65rem, $secondary-font, 58px, 2.1px);
+}
+
+h3 {
+    @include font-styles(1rem, $secondary-font, 58px, 2.1px);
+}
+
+p {
+    @include font-styles(1rem, $main-font, 32px, 2px, none);
+}
+
+p.logo {
+    @include font-styles(1.1rem, $secondary-font, 24px, 1.2px);
+}
+
+.button {
+    @include font-styles(1rem, $secondary-font, 32px, 2px, uppercase, $lightest);
+    text-align: center;
+    background-color: $sec-accent;
+    text-decoration: none;
+    padding: 10px 15px 5px 15px;
+    margin: 10px;
+}
+
+footer p {
+    color: $lightest;
+}
