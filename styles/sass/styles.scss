@@ -20,7 +20,16 @@ $primary: #151514;
     color: $color;
 }
 
+@mixin header-background ($location, $position:center, $head-height:50vh, $img-size:cover, $bkgcolor: $lightest) {
+    background: url($location);
+    background-position: $position;
+    min-height: $head-height;
+    background-size: $img-size;
+    background-color: $bkgcolor;
+    background-repeat: no-repeat;
+}
+
 // imports
 @import "normalize";
-@import "font-styles";
+@import "basic-styles";
 @import "headers";

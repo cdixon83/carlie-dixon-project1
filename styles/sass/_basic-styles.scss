@@ -1,5 +1,6 @@
 h1 {
     @include font-styles(3.4rem, $header-font, 64px, 0.8px);
+    font-weight: lighter;
 }
 
 h2 {
@@ -14,7 +15,7 @@ p {
     @include font-styles(1rem, $main-font, 32px, 2px, none);
 }
 
-p.logo {
+.logo p {
     @include font-styles(1.1rem, $secondary-font, 24px, 1.2px);
 }
 

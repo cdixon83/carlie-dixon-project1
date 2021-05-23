@@ -1,3 +1,4 @@
+// nav styles
 .flex-cont-nav1 {
     display: flex;
     justify-content: space-between;
@@ -15,6 +16,8 @@
 
 header ul {
     list-style: none;
+    margin: 0;
+    padding: 0;
     li {
         padding: 10px 25px;
         a {
@@ -28,3 +31,37 @@ header ul {
     }
 }
 
+// header on index
+header.index {
+    @include header-background("../assets/header-home.jpg", top, 90vh, "100% 80%");
+}
+
+header {
+    span {
+        display: block;
+    }
+    h1 {
+        margin-left: 20%;
+    }
+}
+
+// header on blog
+header.blog {
+    @include header-background ("../assets/blog-image.jpg");
+    background-color: $light2;
+}
+
+.blog h1,
+.contact h1 {
+    margin: 10% 0;
+}
+
+.logo {
+    padding-left: 0;
+}
+
+// header on contact
+
+header.contact {
+    @include header-background ("../assets/contact-image.jpg")
+}
