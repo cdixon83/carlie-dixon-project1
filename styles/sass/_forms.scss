@@ -1,0 +1,54 @@
+input {
+    border: 0;
+    border-bottom: $primary 1px solid;
+    padding: 15px;
+    margin-bottom: 30px;
+    width: 45%;
+}
+
+input::placeholder {
+    @include font-styles(1rem, $main-font, 32px, 2px);
+    opacity: 1;
+}
+
+textarea {
+    @include font-styles(1rem, $main-font, 32px, 2px);
+    border: $primary 1px solid;
+    width: 100%;
+    height: 200px;
+    padding: 15px;
+}
+
+button {
+    width: 100%;
+    border: 0;
+    margin: 0;
+    margin-top: 30px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px;
+    
+}
+
+.contact form {
+    background-color: $lightest;
+    box-shadow: 20px 20px $accent;
+    width: 100%;
+    input,
+    textarea {
+        background-color: $lightest;
+    }
+}
+
+.blog form {
+    background-color: $light2;
+    width: 60%;
+    input,
+    textarea {
+        background-color: $light2;
+    }
+}

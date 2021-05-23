@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="./styles/styles.css">
     <title>Sanctuary Helpers - Contact</title>
 </head>
-<body>
-    <header class="contact">
+<body class="contact">
+    <header>
         <nav class="wrapper">
             <ul class="flex-cont-nav1">
                 <li class="logo">
@@ -33,20 +33,22 @@
         </div>
     </header>
     <main>
-        <div class="flex-cont-main">
-            <form action="#" method="POST" class="send-message" name="send-message">
-                <label for="name">Name</label>
-                <input type="text" name="name" required="true" placeholder="Name">
+        <div class="flex-cont-main wrapper">
+            <div class="form">
+                <form action="#" method="POST" class="send-message" name="send-message">
+                    <label for="name" class="sr-only">Name</label>
+                    <input type="text" id="name" required="true" placeholder="Name">
 
-                <label for="email">Email Address</label>
-                <input type="email" name="email" required="true" placeholder="Email Address">
+                    <label for="email" class="sr-only">Email Address</label>
+                    <input type="email" id="email" required="true" placeholder="Email Address">
 
-                <label for="message"></label>
-                <textarea name="message" cols="30" rows="10" minlength="5" maxlength="200">Message</textarea>
+                    <label for="message" class="sr-only">Message</label>
+                    <textarea name="message" id="message">Message</textarea>
 
-                <button type="submit">Post Comment</button>
-            </form>
-            <div class="contact">
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            <div class="cont-info3">
                 <ul class="flex-cont-socials">
                     <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                     <li><a href="#"><i class="fab fa-instagram"></i></a></li>

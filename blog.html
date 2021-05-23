@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="./styles/styles.css">
     <title>Sanctuary Helpers - Blog</title>
 </head>
-<body>
-    <header class="blog">
+<body class="blog">
+    <header>
         <nav class="wrapper">
             <ul class="flex-cont-nav1">
                 <li class="logo">
@@ -84,13 +84,13 @@
                 </div>
             </div>
             <form action="#" method="POST" class="post-comment" name="post-comment">
-                <label for="name">Name</label>
+                <label for="name" class="sr-only">Name</label>
                 <input type="text" name="name" required="true" placeholder="Name">
 
-                <label for="email">Email Address</label>
+                <label for="email" class="sr-only">Email Address</label>
                 <input type="email" name="email" required="true" placeholder="Email Address">
 
-                <label for="comment"></label>
+                <label for="comment" class="sr-only"></label>
                 <textarea name="comment" cols="30" rows="10" minlength="5" maxlength="200">Comment</textarea>
 
                 <button type="submit">Post Comment</button>

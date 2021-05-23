@@ -19,7 +19,8 @@ p {
     @include font-styles(1.1rem, $secondary-font, 24px, 1.2px);
 }
 
-.button {
+.button,
+button {
     @include font-styles(1rem, $secondary-font, 32px, 2px, uppercase, $lightest);
     text-align: center;
     background-color: $sec-accent;
@@ -28,6 +29,12 @@ p {
     margin: 10px;
 }
 
-footer p {
-    color: $lightest;
+footer {
+    background-color: $primary;
+    p {
+        color: $lightest;
+        text-align: center;
+        margin: 0;
+        padding: 10px;
+    }
 }

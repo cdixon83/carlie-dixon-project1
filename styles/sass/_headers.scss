@@ -7,6 +7,7 @@
 .flex-cont-nav {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .ham-nav {
@@ -33,7 +34,7 @@ header ul {
 
 // header on index
 header.index {
-    @include header-background("../assets/header-home.jpg", top, 90vh, "100% 80%");
+    @include header-background("../assets/header-home.jpg", top, 90vh, contain);
 }
 
 header {
@@ -46,14 +47,14 @@ header {
 }
 
 // header on blog
-header.blog {
+.blog header {
     @include header-background ("../assets/blog-image.jpg");
     background-color: $light2;
 }
 
 .blog h1,
 .contact h1 {
-    margin: 10% 0;
+    margin: 5% 0;
 }
 
 .logo {
@@ -62,6 +63,6 @@ header.blog {
 
 // header on contact
 
-header.contact {
+.contact header {
     @include header-background ("../assets/contact-image.jpg")
 }
