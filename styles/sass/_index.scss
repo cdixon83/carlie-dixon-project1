@@ -1,0 +1,52 @@
+// discovering section styles
+.discovering {
+    background-color: $lightest;
+}
+
+.flex-cont-disc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 75px 0 150px 0;
+    .text-cont-disc{
+        width: 70%;
+        p {
+            margin-bottom: 40px;
+        }
+    }
+    .image-cont-disc {
+        width: 25%;
+        img{
+            box-shadow: -15px 15px $accent;
+        }
+    }
+}
+
+// image-section styles
+.image-section {
+    background-color: $light2;
+}
+
+.flex-cont-img {
+    display: flex;
+    justify-content: space-between;
+    .image-cont-img {
+        width: 30%;
+        margin: 100px 0;
+    }
+}
+
+// about-us styles
+.about-us ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px 70px;
+    // add a ::before for the logos on the h2
+}
+
+.about-us div {
+    padding-left: 70px;
+}

@@ -259,6 +259,12 @@ img {
   display: block;
 }
 
+header,
+main {
+  max-width: 2000px;
+  margin: 0 auto;
+}
+
 h1 {
   font-size: 3.4rem;
   font-family: "Kumar One Outline", "cursive";
@@ -529,6 +535,66 @@ form {
 .blog form input,
 .blog form textarea {
   background-color: #E0FDDF;
+}
+
+.discovering {
+  background-color: #F5F5F5;
+}
+
+.flex-cont-disc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 75px 0 150px 0;
+}
+.flex-cont-disc .text-cont-disc {
+  width: 70%;
+}
+.flex-cont-disc .text-cont-disc p {
+  margin-bottom: 40px;
+}
+.flex-cont-disc .image-cont-disc {
+  width: 25%;
+}
+.flex-cont-disc .image-cont-disc img {
+  -webkit-box-shadow: -15px 15px #F8FB05;
+          box-shadow: -15px 15px #F8FB05;
+}
+
+.image-section {
+  background-color: #E0FDDF;
+}
+
+.flex-cont-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.flex-cont-img .image-cont-img {
+  width: 30%;
+  margin: 100px 0;
+}
+
+.about-us ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px 70px;
+}
+
+.about-us div {
+  padding-left: 70px;
 }
 
 body.contact {
