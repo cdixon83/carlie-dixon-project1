@@ -33,13 +33,13 @@
         </div>
     </header>
     <main>
-        <section class="info">
-            <div class="flex-cont-info1">
-                <div class="cont-info1">
-                    <div class="img-cont-info1">
+        <section class="blog">
+            <div class="flex-cont-blog1">
+                <div class="cont-blog1">
+                    <div class="img-cont-blog1">
                         <img src="./assets/blog-post-image.jpg" alt="Blue couch with white pillows in a white room.">
                     </div>
-                    <div class="text-cont-info1">
+                    <div class="text-cont-blog1">
                         <h2>Finding the right pieces for new space</h2>
                         <p>Monday, October 5th, 2019 by <span>Saron</span></p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At libero corrupti, a necessitatibus autem cupiditate excepturi facere modi nostrum, sunt natus consectetur consequuntur eius distinctio quia cumque! Quaerat, sit minus?</p>
@@ -49,11 +49,11 @@
 
                     </div>
                 </div>
-                <div class="cont-info2">
-                    <div class="img-cont-info2">
+                <div class="cont-mission">
+                    <div class="img-cont-blog2">
                         <img src="./assets/sidebar-image.jpg" alt="A bronze geometric ceiling light fixture.">
                     </div>
-                    <div class="text-cont-info2">
+                    <div class="text-cont-blog2">
                         <h3>Out Mission</h3>
                         <p>Nam dapibus nisl vitae elit fringilla rutrum. Aenean sollicitudin, erat a elementum. Find out more.</p>
                         <h3>Recent Posts</h3>
@@ -82,19 +82,20 @@
                         <p>Donec viverra eleifend lacus, vitae ullamcorper metus. Sed sollicitudin ipsum quis nunc sollicitudin uslrices. Donec euismod scelerisque ligula.</p>
                     </div>
                 </div>
+            
+                <form action="#" method="POST" class="post-comment" name="post-comment">
+                    <label for="name" class="sr-only">Name</label>
+                    <input type="text" name="name" required="true" placeholder="Name">
+
+                    <label for="email" class="sr-only">Email Address</label>
+                    <input type="email" name="email" required="true" placeholder="Email Address">
+
+                    <label for="comment" class="sr-only"></label>
+                    <textarea name="comment" cols="30" rows="10" minlength="5" maxlength="200">Comment</textarea>
+
+                    <button type="submit">Post Comment</button>
+                </form>
             </div>
-            <form action="#" method="POST" class="post-comment" name="post-comment">
-                <label for="name" class="sr-only">Name</label>
-                <input type="text" name="name" required="true" placeholder="Name">
-
-                <label for="email" class="sr-only">Email Address</label>
-                <input type="email" name="email" required="true" placeholder="Email Address">
-
-                <label for="comment" class="sr-only"></label>
-                <textarea name="comment" cols="30" rows="10" minlength="5" maxlength="200">Comment</textarea>
-
-                <button type="submit">Post Comment</button>
-            </form>
         </section>
     </main>
     <footer>

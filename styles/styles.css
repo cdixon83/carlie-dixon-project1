@@ -245,7 +245,7 @@ template {
 }
 
 .wrapper {
-  max-width: 1600px;
+  max-width: 1500px;
   width: 90%;
   margin: 0 auto;
 }
@@ -263,6 +263,10 @@ header,
 main {
   max-width: 1500px;
   margin: 0 auto;
+}
+
+body {
+  background-color: #151514;
 }
 
 h1 {
@@ -530,11 +534,75 @@ form {
 
 .blog form {
   background-color: #E0FDDF;
-  width: 60%;
+  width: 100%;
+  padding: 0 0 100px 0;
 }
 .blog form input,
 .blog form textarea {
   background-color: #E0FDDF;
+}
+
+main {
+  background-color: #E0FDDF;
+}
+
+.flex-cont-blog1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.flex-cont-blog1 .cont-blog1 {
+  width: 65%;
+  background-color: #F5F5F5;
+  border-right: 10px solid #F8FB05;
+  border-bottom: 10px solid #F8FB05;
+}
+.flex-cont-blog1 .cont-blog1 .img-cont-blog1 img {
+  position: relative;
+  left: -10px;
+  top: -100px;
+  -webkit-box-shadow: 20px 20px #F8FB05;
+          box-shadow: 20px 20px #F8FB05;
+}
+.flex-cont-blog1 .cont-blog1 .text-cont-blog1 {
+  margin-left: 10vw;
+  padding-right: 30px;
+}
+.flex-cont-blog1 .cont-mission {
+  width: 25%;
+  background-color: #F8FB05;
+}
+.flex-cont-blog1 .cont-mission img {
+  position: relative;
+  left: 20px;
+  bottom: 20px;
+}
+.flex-cont-blog1 .cont-mission .text-cont-blog2 {
+  padding-left: 20px;
+}
+
+.blog-wrapper {
+  margin-left: 10%;
+  margin-right: 35%;
+}
+
+.blogs {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+.blogs h3 {
+  margin-top: 0;
+  font-size: 0.8rem;
+  line-height: 24px;
+}
+.blogs p {
+  padding-bottom: 50px;
 }
 
 .discovering {
