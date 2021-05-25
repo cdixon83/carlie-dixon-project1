@@ -569,6 +569,7 @@ main {
   top: -100px;
   -webkit-box-shadow: 20px 20px #F8FB05;
           box-shadow: 20px 20px #F8FB05;
+  border-left: #151514 10px solid;
 }
 .flex-cont-blog1 .cont-blog1 .text-cont-blog1 {
   margin-left: 10vw;
@@ -582,6 +583,7 @@ main {
   position: relative;
   left: 20px;
   bottom: 20px;
+  border-right: #151514 solid 20px;
 }
 .flex-cont-blog1 .cont-mission .text-cont-blog2 {
   padding-left: 20px;
@@ -709,6 +711,7 @@ main {
           box-shadow: -20px 20px #F8FB05;
   position: relative;
   top: 50px;
+  right: -6px;
 }
 
 .img-cont-info3 {

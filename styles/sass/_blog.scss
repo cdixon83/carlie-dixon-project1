@@ -17,6 +17,7 @@ main {
             left: -10px;
             top: -100px;
             box-shadow: 20px 20px $accent;
+            border-left: $primary 10px solid;
         }
         .text-cont-blog1 {
             margin-left: 10vw;
@@ -30,6 +31,7 @@ main {
             position: relative;
             left: 20px;
             bottom: 20px;
+            border-right: $primary solid 20px;
         }
         .text-cont-blog2 {
             padding-left: 20px;
