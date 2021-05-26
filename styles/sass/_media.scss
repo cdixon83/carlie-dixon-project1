@@ -103,10 +103,12 @@
 }
 
 @media (max-width: 775px) {
+    // contact page
     .flex-cont-main .form,
     .cont-info3 {
         width: 100%;
         text-align: center;
+        margin-left: 0;
         ul {
             justify-content: center;
             li {
@@ -201,5 +203,12 @@
     .blog-wrapper {
         margin: 0 auto;
         width: 90%;
+    }
+
+    .blogs {
+        grid-template-columns: 1fr;
+        img {
+            display: none;
+        }
     }
 }

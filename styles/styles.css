@@ -246,7 +246,7 @@ template {
 
 .wrapper {
   max-width: 1500px;
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -415,7 +415,7 @@ header span {
   display: block;
 }
 header h1 {
-  margin-left: 10%;
+  margin-left: 15%;
 }
 
 .blog header {
@@ -793,7 +793,6 @@ body.contact {
   background-color: #151514;
 }
 body.contact main {
-  padding: 20px;
   background-color: #E0FDDF;
 }
 
@@ -976,6 +975,7 @@ body.contact main {
 .cont-info3 {
     width: 100%;
     text-align: center;
+    margin-left: 0;
   }
   .flex-cont-main .form ul,
 .cont-info3 ul {
@@ -1068,5 +1068,12 @@ body.contact main {
   .blog-wrapper {
     margin: 0 auto;
     width: 90%;
+  }
+
+  .blogs {
+    grid-template-columns: 1fr;
+  }
+  .blogs img {
+    display: none;
   }
 }
