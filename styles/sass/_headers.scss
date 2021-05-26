@@ -20,13 +20,17 @@ header ul {
     margin: 0;
     padding: 0;
     li {
-        padding: 10px 25px;
+        padding: 10px 15px;
         a {
             @include font-styles (1rem, $main-font, 29px, 1.4px);
             text-decoration: none;
             font-weight: 700;
+            i {
+                font-size: 2rem;
+            }
         }
-        a:hover {
+        a:hover,
+        a:focus {
             border-bottom: solid $accent 2px;
         }
     }
@@ -34,7 +38,10 @@ header ul {
 
 // header on index
 header.index {
-    @include header-background("../assets/header-home.jpg", top, 90vh, contain);
+    @include header-background("../assets/header-home.jpg", top);
+    .image-cont-head {
+        max-width: 50%;
+    }
 }
 
 header {
@@ -42,7 +49,7 @@ header {
         display: block;
     }
     h1 {
-        margin-left: 20%;
+        margin-left: 10%;
     }
 }
 
@@ -59,6 +66,7 @@ header {
 
 .logo {
     padding-left: 0;
+    padding-right: 0;
 }
 
 // header on contact

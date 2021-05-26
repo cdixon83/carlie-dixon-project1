@@ -29,7 +29,7 @@ $primary: #151514;
     background-repeat: no-repeat;
 }
 
-// imports
+// partials
 @import "normalize";
 @import "basic-styles";
 @import "headers";
@@ -37,3 +37,4 @@ $primary: #151514;
 @import "blog";
 @import "index";
 @import "contact";
+@import "media";

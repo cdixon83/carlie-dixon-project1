@@ -37,28 +37,8 @@
 }
 
 // about-us styles
-// tried with gird but prefer flex leaving here for now
-// .about-us ul {
-//     list-style: none;
-//     padding: 0;
-//     margin: 40px 0 40px 70px;
-//     display: grid;
-//     grid-template-columns: repeat(2, 1fr);
-//     gap: 30px 70px;
-//     li {
-//         position: relative;
-//         span {
-//             position: absolute;
-//             background-color: $accent;
-//             padding: 15px;
-//             border-radius: 50%;
-//             line-height: 1rem;
-//             left: -85px;
-//             top: 20px;
-//         }
-//     }
-// }
 .about-us {
+    background-color: $lightest;
     margin-bottom: 100px;
 }
 
@@ -84,6 +64,7 @@
         }
     }
 }
+
 
 // more-info styles
 .more-info {
@@ -141,6 +122,7 @@
 // search section styles
 
 .search {
+    background-color: $lightest;
     padding: 150px 15%;
     text-align: center;
     p {
