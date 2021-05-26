@@ -56,11 +56,17 @@
         span {
             position: absolute;
             background-color: $accent;
-            padding: 15px;
             border-radius: 50%;
-            line-height: 1rem;
             left: -85px;
             top: 20px;
+            display: block;
+            height: 60px;
+            width: 60px;
+            i {
+                text-align: center;
+                vertical-align: middle;
+                width: 100%;
+            }
         }
     }
 }

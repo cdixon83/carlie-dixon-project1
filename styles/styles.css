@@ -696,11 +696,17 @@ main {
 .about-us ul li span {
   position: absolute;
   background-color: #F8FB05;
-  padding: 15px;
   border-radius: 50%;
-  line-height: 1rem;
   left: -85px;
   top: 20px;
+  display: block;
+  height: 60px;
+  width: 60px;
+}
+.about-us ul li span i {
+  text-align: center;
+  vertical-align: middle;
+  width: 100%;
 }
 
 .more-info {
