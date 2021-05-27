@@ -1019,6 +1019,10 @@ body.contact main {
     border-bottom: solid #151514 2px;
   }
 
+  h2 {
+    font-size: 1.5rem;
+  }
+
   .flex-cont-img .image1 {
     width: 100%;
   }
@@ -1029,7 +1033,7 @@ body.contact main {
     display: none;
   }
 
-  .about-us span {
+  .about-us ul li span {
     display: none;
   }
 
@@ -1051,6 +1055,12 @@ body.contact main {
 
   .flex-cont-blog1 .cont-blog1 .img-cont-blog1 img {
     border: none;
+  }
+
+  .flex-cont-blog1 .cont-blog1 .text-cont-blog1 {
+    margin-left: 0;
+    padding-right: 0;
+    text-align: center;
   }
 
   .img-cont-blog2 {

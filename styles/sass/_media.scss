@@ -149,6 +149,11 @@
         }
     }
 
+    // text changes
+    h2 {
+        font-size: 1.5rem;
+    }
+
     // index changes
     // image section
     .flex-cont-img {
@@ -166,7 +171,7 @@
     }
 
     // about-us section
-    .about-us span {
+    .about-us ul li span {
         display: none;
     }
 
@@ -187,6 +192,12 @@
 
     .flex-cont-blog1 .cont-blog1 .img-cont-blog1 img {
         border: none;
+    }
+
+    .flex-cont-blog1 .cont-blog1 .text-cont-blog1 {
+        margin-left: 0;
+        padding-right: 0;
+        text-align: center;
     }
 
     .img-cont-blog2 {
