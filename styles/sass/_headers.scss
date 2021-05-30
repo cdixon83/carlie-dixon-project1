@@ -10,10 +10,28 @@
     flex-wrap: wrap;
 }
 
-.ham-nav {
-    display: none;
+button.ham {
     position: absolute;
+    background-color: transparent;
+    width: 10%;
+    margin-top: 0;
+    top: 15px;
+    right: 15px;
+    i {
+        color: $primary;
+    }
 }
+
+// to allow for media query manipulation
+.hidden {
+    display: block;
+}
+.show,
+.close-show {
+    display: none;
+}
+
+
 
 header ul {
     list-style: none;
