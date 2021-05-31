@@ -35,6 +35,10 @@ body.contact {
                 ext-decoration: none;
             color: $sec-accent;
         }
+        a:hover,
+        a:focus {
+            background-color: $accent;
+        }
     }
 }
 

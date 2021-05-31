@@ -155,31 +155,6 @@
         flex-direction: column;
     }
 
-
-    // .ham-close {
-    //     display: none;
-    // }
-
-
-    // .hideMenu {
-    //     display: none;
-    // }
-
-    // .flex-cont-nav1:hover .flex-cont-nav,
-    // .flex-cont-nav1:focus-within .flex-cont-nav {
-    //     display: block;
-    //     position: absolute;
-    //     top: 10px;
-    //     right: 10px;
-    //     background-color: $accent;
-    //     border-radius: 10px;
-
-    //     a:hover,
-    //     a:focus {
-    //         border-bottom: solid $primary 2px;
-    //     }
-    // }
-
     // text changes
     h2 {
         font-size: 1.5rem;
@@ -189,17 +164,48 @@
     // image section
     .flex-cont-img {
 
-        .image1 {
+        .image1,
+        .image2,
+        .image3 {
             width: 100%;
+            display: block;
             img {
                 width: 100%;
             }
         }
 
-        .image2 {
+        .hideImage {
             display: none;
         }
+
+        .showImage {
+            display: block;
+        }
     }
+
+    section.image-section {
+        position: relative;
+    }
+
+    button.next,
+    button.back {
+        display: block;
+        color: $primary;
+        position: absolute;
+        top: 250px;
+        
+        font-size: 2rem;
+        background-color: transparent;
+        width: 10%;
+    }
+
+    button.next {
+        right: 10px;
+    }
+    button.back{
+        left: 10px;
+    }
+
 
     // about-us section
     .about-us ul li span {

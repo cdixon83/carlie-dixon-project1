@@ -686,6 +686,10 @@ main {
   margin: 100px 0;
 }
 
+button.next {
+  display: none;
+}
+
 .about-us {
   background-color: #F5F5F5;
   margin-bottom: 100px;
@@ -848,6 +852,10 @@ body.contact main {
 .flex-cont-socials li a {
   ext-decoration: none;
   color: #065635;
+}
+.flex-cont-socials li a:hover,
+.flex-cont-socials li a:focus {
+  background-color: #F8FB05;
 }
 
 .cont-info3 {
@@ -1040,14 +1048,45 @@ body.contact main {
     font-size: 1.5rem;
   }
 
-  .flex-cont-img .image1 {
+  .flex-cont-img .image1,
+.flex-cont-img .image2,
+.flex-cont-img .image3 {
+    width: 100%;
+    display: block;
+  }
+  .flex-cont-img .image1 img,
+.flex-cont-img .image2 img,
+.flex-cont-img .image3 img {
     width: 100%;
   }
-  .flex-cont-img .image1 img {
-    width: 100%;
-  }
-  .flex-cont-img .image2 {
+  .flex-cont-img .hideImage {
     display: none;
+  }
+  .flex-cont-img .showImage {
+    display: block;
+  }
+
+  section.image-section {
+    position: relative;
+  }
+
+  button.next,
+button.back {
+    display: block;
+    color: #151514;
+    position: absolute;
+    top: 250px;
+    font-size: 2rem;
+    background-color: transparent;
+    width: 10%;
+  }
+
+  button.next {
+    right: 10px;
+  }
+
+  button.back {
+    left: 10px;
   }
 
   .about-us ul li span {
