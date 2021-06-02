@@ -686,8 +686,11 @@ main {
   margin: 100px 0;
 }
 
-button.next {
+button.next,
+button.back {
   display: none;
+  margin: 0;
+  padding: 0;
 }
 
 .about-us {
@@ -1048,6 +1051,9 @@ body.contact main {
     font-size: 1.5rem;
   }
 
+  .flex-cont-img {
+    width: 75%;
+  }
   .flex-cont-img .image1,
 .flex-cont-img .image2,
 .flex-cont-img .image3 {

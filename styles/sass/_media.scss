@@ -121,6 +121,7 @@
 
 
 @media (max-width: 700px) {
+    
     .hide,
     .close-hidden {
         display: none;
@@ -163,7 +164,7 @@
     // index changes
     // image section
     .flex-cont-img {
-
+        width: 75%;
         .image1,
         .image2,
         .image3 {

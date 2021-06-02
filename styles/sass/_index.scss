@@ -36,8 +36,11 @@
     }
 }
 
-button.next {
+button.next,
+button.back {
     display: none;
+    margin: 0;
+    padding: 0;
 }
 
 // about-us styles
