@@ -121,6 +121,12 @@
 
 
 @media (max-width: 700px) {
+    p,
+    .text-cont-info1 p,
+    .text-cont-info2 p,
+    .search p {
+        text-align: left;
+    }
     
     .hide,
     .close-hidden {
@@ -161,7 +167,7 @@
         font-size: 1.5rem;
     }
 
-    // index changes
+// index changes
     // image section
     .flex-cont-img {
         width: 75%;
@@ -218,7 +224,7 @@
         margin: 0 auto;
         h2,
         p {
-            text-align: center;
+            text-align: left;
         }
     }
     // end of index
@@ -235,7 +241,7 @@
     .flex-cont-blog1 .cont-blog1 .text-cont-blog1 {
         margin-left: 0;
         padding-right: 0;
-        text-align: center;
+        text-align: left;
     }
 
     .img-cont-blog2 {

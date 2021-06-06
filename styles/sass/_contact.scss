@@ -17,7 +17,6 @@ body.contact {
 
 .form {
     width: 60%;
-    // min-width: 525px;
     input {
         min-width: 210px;
     }
@@ -32,7 +31,6 @@ body.contact {
     li {
         padding: 5px;
         a {
-                ext-decoration: none;
             color: $sec-accent;
         }
         a:hover,
@@ -47,10 +45,16 @@ body.contact {
     align-self: center;
     min-width: 220px;
     margin-left: 40px;
-    p {
-        margin: 0;
+}
+
+address {
+    @include font-styles(1rem, $main-font, 25px, 2px, none);
+    font-style: normal;
+    a {
+    color: $primary;
     }
-    p:nth-of-type(1) {
-        margin: 10px 0;
+    a:hover,
+    a:focus {
+        background-color: $accent;
     }
 }

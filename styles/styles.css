@@ -853,7 +853,6 @@ body.contact main {
   padding: 5px;
 }
 .flex-cont-socials li a {
-  ext-decoration: none;
   color: #065635;
 }
 .flex-cont-socials li a:hover,
@@ -868,11 +867,22 @@ body.contact main {
   min-width: 220px;
   margin-left: 40px;
 }
-.cont-info3 p {
-  margin: 0;
+
+address {
+  font-size: 1rem;
+  font-family: "Lato", sans-serif;
+  line-height: 25px;
+  letter-spacing: 2px;
+  text-transform: none;
+  color: #151514;
+  font-style: normal;
 }
-.cont-info3 p:nth-of-type(1) {
-  margin: 10px 0;
+address a {
+  color: #151514;
+}
+address a:hover,
+address a:focus {
+  background-color: #F8FB05;
 }
 
 @media (max-width: 1000px) {
@@ -1016,6 +1026,13 @@ body.contact main {
   }
 }
 @media (max-width: 700px) {
+  p,
+.text-cont-info1 p,
+.text-cont-info2 p,
+.search p {
+    text-align: left;
+  }
+
   .hide,
 .close-hidden {
     display: none;
@@ -1105,7 +1122,7 @@ button.back {
   }
   .about-us ul li h2,
 .about-us ul li p {
-    text-align: center;
+    text-align: left;
   }
 
   .flex-cont-blog1 {
@@ -1122,7 +1139,7 @@ button.back {
   .flex-cont-blog1 .cont-blog1 .text-cont-blog1 {
     margin-left: 0;
     padding-right: 0;
-    text-align: center;
+    text-align: left;
   }
 
   .img-cont-blog2 {
